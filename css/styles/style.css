@@ -1,0 +1,167 @@
+body {
+  text-align: center;
+  background-color: #2d4059;
+  color: #f8b53a;
+  display: grid;
+  grid-template-columns: 30% 68%;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+}
+
+body > div {
+  box-shadow: #3d587c 3px 3px 6px 0px inset,#3d587c -3px -3px 6px 1px inset;
+}
+
+hr{
+  width: 80%;
+  margin-top: 20px ;
+  margin-bottom: 20px;
+  box-shadow: #3d587c 3px 3px 6px 0px ,#3d587c -3px -3px 6px 1px ;
+}
+
+.logo {
+  height: 125px;
+  width: 125px;
+}
+
+.telegram {
+  width: 200px ;
+}
+
+.gmail {
+  height: 50px;
+  width: 50px;
+}
+
+.with-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.with-logo > * {
+  margin-left: 20px;
+}
+
+body > div {
+  border: 2px solid #f8425f;
+  border-radius: 5px;
+}
+
+body .skills {
+  border: none;
+  box-shadow: none;
+}
+
+table, .genral-knowledge {
+  margin-top: 20px;
+
+}
+
+.genral-knowledge{
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.genral-information > div {
+  margin: 20px 0 ;
+}
+
+#me {
+  margin-top: 20px ;
+}
+
+.my-email {
+  text-decoration: underline;
+  color: #f8b53a;
+}
+
+table {
+  width: 100%;
+}
+
+td, th{
+  padding: 20px 40px;
+}
+
+th{
+  background-color: #f8425f;
+}
+.odd-td {
+  background-color: #2d4059;
+}
+
+.even-td{
+  background-color: #48648a;
+}
+
+.fav{
+}
+
+.genral-fav > div{
+  margin: 20px;
+}
+
+.contact {
+}
+
+
+.movies, .series {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#me, .other-pages img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.other-pages {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+}
+
+
+.other-pages #milan{
+  height: 225px;
+  width: 150px;
+}
+
+.fav-movies, .fav-series{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding: 20px;
+}
+
+.movies img, .serie img{
+  height: 300px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.other-pages a {
+  color: #ffec41;
+}
+
+a{
+  text-decoration: none;
+  color: #f8b53a;
+}
+
+
+h4 {
+  color: #ffec41;
+}
+
+
+.page {
+  display: flex;
+  flex-direction: column;
+
+}

@@ -1,0 +1,156 @@
+body{
+  margin:0;
+  background-color: #b71c1c;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin: 5px 30px;
+  grid-gap: 30px;
+}
+
+#milan{
+  width: 200px;
+  height: 300px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.info {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 40px;
+}
+
+.info > div > div {
+  margin: 20px 10px;
+}
+
+.team-info, .city-info, .trophy-container, .legends, .kits, .other-pages  {
+  background-color: #212121;
+  border-radius: 15px;
+}
+
+.team-info{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.city-info {
+
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+
+.trophy-container{
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.trophies {
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  align-items: center;
+}
+
+#legend-header {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  justify-content: center;
+}
+
+.legends {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  /* width: 70%; */
+}
+
+
+.maldini{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.maldini > img {
+  width: 40%;
+  height: 50%;
+}
+
+.shirts {
+  grid-column-end: 1;
+  grid-column-start: 7;
+}
+
+.kits{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+  height: 350px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+#kit1 {
+  border: 2px dashed #b71c1c;
+}
+
+#kit2 {
+  border: 2px dashed #e0e0e0;
+}
+
+#kit3 {
+  border: 2px ridge #0277bd;
+}
+
+.kit{
+  height: 80%;
+  justify-content: space-around;
+}
+
+.other-pages {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  
+}
+
+.other-pages a {
+  color: #e0e0e0;
+}
+
+.other-pages img{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+
+.other-pages #milan{
+  height: 225px;
+  width: 150px;
+}
+
+.page, .kit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}

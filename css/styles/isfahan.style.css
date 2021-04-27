@@ -1,0 +1,71 @@
+body {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-template-rows: 800px 600px 600px 300px;
+  background-color: #a8d0e6;
+  color: #f8e9a1;
+  font-size: 19px;
+  text-align: center;
+  grid-gap: 40px;
+}
+
+body > div {
+  background-color: #24305e;
+  border-radius: 10px;
+}
+
+h1, h2, h3{
+  color:#f76c6c ;
+}
+
+
+a{
+  color: #a8d0e6;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.image, .city-info, .info {
+  height: 100%;
+}
+
+.city-info, .other-pages {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.info, .city-general-info{
+  margin: 40px;
+}
+
+.other-pages {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+.other-pages img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.other-pages #milan{
+  height: 225px;
+  width: 150px;
+}
+
+.topic-area img {
+  width: 450px;
+  height: 250px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
